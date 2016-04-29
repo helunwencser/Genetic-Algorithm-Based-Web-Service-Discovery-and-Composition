@@ -75,4 +75,12 @@ public class Service {
 				this.time * this.TIME +
 				this.availability * this.AVAILABILITY;
 	}
+	
+	public String toString() {
+		return "Cost\t" + this.cost + "\n" +
+				"Reliability\t" + this.reliability + "\n" +
+				"Time\t" + this.time + "\n" +
+				"Availability\t" + this.availability + "\n" +
+				"QoS valaue\t" + this.getQualityValue();
+	}
 }

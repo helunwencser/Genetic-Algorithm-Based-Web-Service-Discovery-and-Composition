@@ -25,7 +25,7 @@ public class Services {
 			String line = null;
 			while((line = reader.readLine()) != null) {
 				String[] elements = line.split("\t");
-				switch(elements[1]) {
+				switch(elements[0]) {
 				case "1":
 					this.cluster1.add(new Service(
 							Integer.parseInt(elements[1]),

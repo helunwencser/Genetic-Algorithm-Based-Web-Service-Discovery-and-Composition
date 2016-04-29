@@ -13,7 +13,7 @@ import org.jgap.IChromosome;
  * In this kind of work flow, the maximum fitness value of a, b, c will be
  * chosen as the fitness value for the work flow.
  * */
-public class ServiceORCopositionFitnessFunction extends FitnessFunction {
+public class ServiceORCompositionFitnessFunction extends FitnessFunction {
 
 	/**
 	 * 
