@@ -65,7 +65,11 @@ public class Service {
 		this.availability = availability;
 	}
 	
-	public int getFitnessValue() {
+	/**
+	 * Get the value of quality of service
+	 * @return	the value of quality of service
+	 * */
+	public int getQualityValue() {
 		return this.cost * this.COST +
 				this.reliability * this.RELIABILITY +
 				this.time * this.TIME +
