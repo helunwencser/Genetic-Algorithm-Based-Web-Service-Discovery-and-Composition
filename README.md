@@ -20,4 +20,4 @@ Service Oriented Computing, at Carnegie Mellon University, Spring 2016.
 1. src: the source code for this project
 2. lib: the jar library
 3. services: the input file which contains the attributes value of each service in each service cluster
-4. README.md: the readme file for this project
+4. README.md: the README file for this project
